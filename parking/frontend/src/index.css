@@ -1,0 +1,62 @@
+:root {
+  /* Professional Parking Theme - Blues, Greens, Grays */
+  --primary-color: #2563EB;        /* Professional Blue */
+  --secondary-color: #1E40AF;      /* Deep Blue */
+  --accent-color: #059669;         /* Forest Green */
+  --success-color: #10B981;        /* Success Green */
+  --warning-color: #DC2626;        /* Alert Red */
+  --info-color: #0EA5E9;           /* Sky Blue */
+  --dark-color: #1F2937;           /* Charcoal Gray */
+  --light-color: #F9FAFB;          /* Off White */
+  --text-dark: #111827;            /* Dark Text */
+  --text-light: #6B7280;           /* Light Gray Text */
+  --border-color: #D1D5DB;         /* Border Gray */
+  --card-bg: #FFFFFF;              /* Card Background */
+  --hover-bg: #F3F4F6;            /* Hover Background */
+  
+  /* Professional Gradients */
+  --gradient-primary: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  --gradient-secondary: linear-gradient(135deg, #1E40AF 0%, #1E3A8A 100%);
+  --gradient-accent: linear-gradient(135deg, #059669 0%, #047857 100%);
+  --gradient-dark: linear-gradient(135deg, #374151 0%, #1F2937 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--light-color);
+  color: var(--text-dark);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
+}
